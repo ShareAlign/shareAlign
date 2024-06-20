@@ -1,0 +1,11 @@
+schema {
+  query: Query
+  mutation: Mutation
+}
+
+type Query {
+}
+
+type Mutation {
+  signup(username: String!, email: String!, password: String!): ID!
+}
